@@ -1,0 +1,184 @@
+@font-face {
+    font-family: gothambold;
+    src: url(GothamRnd-Bold.otf);
+}
+@media (min-width: 768px){
+	fieldset{
+		margin-left: 10px !important;
+		margin-right: 10px !important;
+	}
+}
+/*Tablet s/d small pc*/
+@media (max-width: 991px) and (min-width: 768px){
+	.defenisi h5{
+		margin-top:20px !important;
+		font-family: gothambold;
+	}
+	.bannertwo ul{
+		font-size: 11px !important;
+	}
+	.navtwo li a:after{
+		right: 10px;
+	}
+	
+	
+	.nav-tabs{
+		font-size: 10px !important;
+		padding: 10px 55px 0px;
+	}
+
+	.jobs{
+		text-align: center;
+	}
+	
+	fieldset{
+		margin-left: 10px !important;
+		margin-right: 10px !important;
+	}
+
+	.item div:nth-child(3) {
+    	text-align: center;
+	}
+	.dropdown{
+		float: right;
+	}
+	
+}
+/*Gadged*/
+@media (max-width: 767px) {
+	.table{
+		font-size: 10px;
+	}
+	.wrappers table{
+		font-size: 10px;
+	}
+	.labeler{
+		font-size: 12px !important;
+	}
+	.item img{
+		width: 100%;
+	}
+	.identitas{
+		font-size: 12px;
+	}
+	.defenisi h5{
+		margin-top:20px !important;
+		font-family: gothambold;
+	}
+
+	.item div:nth-child(3) {
+    	text-align: center;
+	}
+	.item div:nth-child(4) {
+    	text-align: center;
+	}
+	.dropdown{
+		float: right;
+	}
+	fieldset{
+		margin-left: 10px !important;
+		margin-right: 10px !important;
+	}
+
+}
+@media(max-width:991px){
+	.item{
+		border-bottom: 4px solid #a1a1a1 !important;
+		margin-bottom: 10px;
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+}
+/*small PC*/
+@media (min-width: 992px) and (max-width: 1198px){
+	.Iduser{
+		margin-left:0px !important; 
+		margin-right:0px !important;
+	}
+
+	footer>div>div:nth-child(1){
+		width: 58.33333333% !important;
+	}
+
+	footer>div>div:nth-child(2){
+		width: 41.66666667% !important;
+	}
+	.search form input[type=text]{
+		width: 90%;
+	}
+	.atas>div{
+		padding-right: 80px;
+		padding-left: 80px;
+	
+	}
+	.item img{
+		margin-top: 15px;
+		max-width: 80px;
+	}
+	.item div:nth-child(3) {
+    	padding-left: 25px !important;
+	}
+	.menuku>ul>li>span{
+		font-size: 14px;
+		font-family: gotham;
+	}
+	.item div:nth-child(4) {
+    	padding-right: 0px !important;
+    	padding-left: 0px !important;
+	}
+	.item div:nth-child(5) {
+    	padding-right: 0px !important;
+    	padding-left: 0px !important;
+	}
+	.nav-tabs{
+		font-size: 10px !important;
+		padding: 10px 30px 0px;
+		
+	}
+	.bannertwo ul{
+		font-size: 12px;
+		font-family: gotham;
+		margin-left:10%;
+		margin-right: 10%;
+	}
+	.khusus{
+		font-size: 12px !important;
+	}
+	
+	.defenisi h5{
+		font-size: 8px !important;
+		margin-top:20px !important;
+		font-family: gothambold;
+	}
+
+	
+	.dropdown button{
+		padding-right: 5px;
+	}
+}
+@media (min-width: 1199px) {
+	.item div:nth-child(3) {
+    	padding-left: 50px !important;
+	}
+	.item{
+		margin-top: 30px !important;
+	}
+	.defenisi h5{
+		margin-top: 15px;
+		font-size: 12px !important;
+		font-family: gothambold;
+	}
+	.nav-tabs{
+		padding: 10px 55px 0px;
+	}
+	.navbar-nav{
+		left: 50%;
+	}
+	.navbar-nav>li{
+		float: none;
+		display: inline-block;
+	}
+	.dropdown button{
+		padding-right: 5px !important;
+	}
+}
