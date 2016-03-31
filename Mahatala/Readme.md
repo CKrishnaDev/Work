@@ -9,6 +9,5 @@
   Actualy I used to be work on Native HTML CSS and PHP on my Collage. but next time
   I try to learn something different, and i will start on play with Angular.js And Android Maybe
   
-//
-  
+<strong>Enjoy</strong>
   
