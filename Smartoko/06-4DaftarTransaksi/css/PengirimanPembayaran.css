@@ -1,0 +1,191 @@
+@font-face {
+    font-family: gotham;
+    src: url(GothamRnd-Light.otf);
+}
+
+.itemsku img{
+		min-width: 140px;
+}
+
+@media (min-width: 992px){
+	.itemsku img{
+		min-width: 126px;
+	}
+	.er h6{
+		line-height: 90px !important;
+	}
+	.itemsku>div:nth-child(4){
+		padding: 0px;
+	} 
+	.sayang img{
+		max-width: 60px !important;
+		min-width: 50px !important;
+	}
+}
+
+.sayang>div{
+	margin-top:20px;
+	margin-bottom: 20px;
+}
+.sayang img{
+	max-width: 100px;
+	min-width: 50px;
+}
+@media (min-width: 200px) and (max-width: 767px){
+	.sayang img {
+	    max-width: 50px;
+	    min-width: 49px;
+	}
+	.Logo h3{
+		font-size: 40px !important;
+	}
+	.itemsku img{
+		float: none !important;
+	}
+	.dedicated div h5{
+		text-align: center !important;
+	}
+	.keran>h3{
+		font-size: 10px !important;
+	}
+	.benarkah>div{
+		font-size: 12px !important;
+	}
+
+	
+	.informasi>div>div:nth-child(3){
+		float: right;
+	}
+	.gita span:nth-child(2){
+		float: none !important;
+	}
+	.navtwo li{
+		margin-top: 10px;
+	}
+
+}
+@media (max-width: 991px) and (min-width: 768px){
+	.itemsku img{
+		min-width: 126px !important;
+	}
+
+}
+.gita span:nth-child(2){
+	float: right;
+}
+.activelist{
+	color:#d60000 !important;
+}
+.itemsku>div:nth-child(1),.itemsku>div:nth-child(2),.itemsku>div:nth-child(4){
+	margin-top: 25px;
+}
+.itemsku h1{
+	font-size: 14px;
+	font-family: gothambold !important;
+}
+.itemsku .gita span{
+	font-size: 14px;
+	margin-left: 10px;
+}
+.wrapper{
+	background: url(../img/background.jpg);
+	background-size: cover;
+}
+.contentbody{
+	margin-top: 100px;
+	height: auto;
+}
+.titles{
+	text-transform: uppercase;
+	font-size: 14px;
+}
+#navbarColtwo .navbar-nav.navtwo li{ 
+    padding: 0px 30px 0px 0px;
+	background: url(../img/arrow_shapes.png) no-repeat center right;
+}
+.navbar-default{
+	box-shadow: none;
+	background: none;
+}
+.ctrl{
+	margin-bottom: 5px;
+}
+
+.tambahactive{
+	border-color: #00aeae !important;
+}
+.keranbel::before{
+	 background-image: url('../img/back.png');
+    background-size: 10px 20px;
+    background-repeat: no-repeat;
+    -webkit-background-size: 10px 20px;
+    -moz-background-size: 10px 20px;
+    display: inline-block;
+    width: 10px; 
+    height: 20px;
+    content:"";
+    vertical-align: -4px;
+    margin-right: 10px;
+  	margin-left: 10px;
+}
+.ses{
+	font-weight: 500;
+}
+.aku{
+	margin-right: 20px;
+	margin-left: 20px;
+}
+.itemsku{
+	border-bottom: 3px solid #a1a1a1;
+}
+.itemsku:last-child{
+	border-bottom:none;
+}
+.er{
+	font-size: 10px;
+	color:#a1a1a1;
+}
+.er h6{
+
+	line-height: 77px;
+}
+
+.pembeliandaritoko{
+	color: #3fce00;
+	text-transform: capitalize;
+}
+.boldcontent{
+	font-family: gothambold;
+}
+.redconterfont{
+	color: #d60000;
+	text-transform: uppercase;
+}
+.keranbel,.konpemba{
+	color: #d60000;
+	font-weight: 600;
+	font-size: 16px;
+	cursor: pointer;
+}
+.pembayaran>div{
+	cursor: pointer;
+}
+.keranbel h3,.konpemba h3{
+	margin-top: 10px !important;
+}
+.bawahs{
+	background-color: #FFFFFF;
+}
+.konpemba::after{
+	 background-image: url('../img/next.png');
+    background-size: 10px 20px;
+    -webkit-background-size: 10px 20px;
+    -moz-background-size: 10px 20px;
+    display: inline-block;
+    width: 10px; 
+    height: 20px;
+    content:"";
+    vertical-align: -4px;
+    margin-right: 10px;
+  	margin-left: 10px;
+}

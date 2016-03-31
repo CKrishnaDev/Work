@@ -1,0 +1,6 @@
+Head box Konfimasi pembayaran : #a1a1a1
+Background invoice : #f4f4f4
+Button Download Invoice : a1a1a1
+
+Background Konfirmasi : #ffffff
+Tombol masukan: #00aeae
